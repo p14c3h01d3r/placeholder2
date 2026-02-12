@@ -42,7 +42,7 @@ async def save_city(ctx):
         picture = discord.File(f)
     await ctx.send(file=picture)
 @bot.command()
-async def help(ctx):
+async def helps(ctx):
     await ctx.send("|mem1")
     await ctx.send("|mem2")
     await ctx.send("|mem3")
