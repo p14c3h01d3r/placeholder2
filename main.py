@@ -41,4 +41,10 @@ async def save_city(ctx):
     with open('images/citysaved.jpg', 'rb') as f:
         picture = discord.File(f)
     await ctx.send(file=picture)
-bot.run("insert bot token here")
+@bot.command()
+async def help(ctx):
+    await ctx.send("|mem1")
+    await ctx.send("|mem2")
+    await ctx.send("|mem3")
+    await ctx.send("|city")
+bot.run("insert bot token")
